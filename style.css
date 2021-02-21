@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background: rgb(165, 158, 158);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  font-family: 'Reggae One', cursive;
+}
+
+.menu {
+  font-family: 'Reggae One', cursive;
+
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  text-align: center;
+}
+
+.menu li {
+  text-align: center;
+  display: inline-block;
+}
+
+.menu ul li {
+  width: 170px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 14px;
+  float: left;
+  position: relative;
+  background: #2a2a53;
+  border-radius: 10px;
+  color: gray;
+  transition-duration: 1s;
+}
+
+.menu ul li:hover {
+  background: rgb(44, 7, 112);
+  border-radius: 10px;
+  color: #fff;
+  transition-duration: 1s;
+}
+
+.menu ul ul {
+  display: none;
+  border-radius: 10px;
+  margin-bottom: 1%;
+}
+
+.menu ul ul li {
+  margin-bottom: 1% !important;
+}
+
+.menu ul li:hover ul {
+  display: block;
+  border-radius: 10px;
+}
+
+.menu ul ul ul {
+  display: none !important;
+  margin-left: 172px;
+  top: 0;
+  position: absolute;
+}
+
+.menu ul ul ul li {
+  margin-bottom: 1% !important;
+  height: 40px;
+}
+
+.menu ul ul li:hover ul {
+  display: block !important;
+}
+
+#navbar {
+  background-color: #2a2a53;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+
+.border {
+  background-color: rgba(248, 248, 248, 0) !important; 
+}
